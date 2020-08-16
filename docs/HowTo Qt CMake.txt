@@ -1,0 +1,9 @@
+:: Using Qt With CMake ::
+
+1] Edit "~/.profile" and add the following lines:
+
+export CMAKE_PREFIX_PATH="~/Qt/5.15.0/gcc_64/:$CMAKE_PREFIX_PATH"
+export QT5_DIR="~/Qt/5.15.0/gcc_64/"
+
+PS:
+Use this only when 'find_package()' is failing to find Qt

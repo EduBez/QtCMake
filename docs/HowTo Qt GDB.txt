@@ -1,0 +1,8 @@
+:: Debugging Qt With GDB ::
+
+Original article at: https://github.com/Lekensteyn/qt5printers
+
+- Extract "PrettyPrint.zip" to your home directory
+- In CLion goto File > Settings > Build,Execution,Deployment > Toolchains
+- Change "Debugger:" from "Bundled GDB" to "/usr/bin/gdb"
+
