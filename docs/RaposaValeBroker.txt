@@ -1,0 +1,6 @@
+
+ssh-keygen -o -t rsa -b 4096 -C "eduardo.bezerra@valemobi.com.br"
+
+git clone git@raposa.valebroker.com.br:2020/plataforma.git
+
+sudo ufw allow 2020
